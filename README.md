@@ -53,7 +53,10 @@
 -----
 
 ####3. 상세 설명
+- 서비스 프로세스
+![캡처](https://user-images.githubusercontent.com/86655679/191920441-20d51dd1-0ff8-40ca-9206-5c291fbeb10c.PNG)
 
+- 서비스 UI
 - 모델
 
     keras를 이용해 CNN 이미지 다중 분류 신경망을 구축했습니다.
