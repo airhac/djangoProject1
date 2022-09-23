@@ -57,6 +57,10 @@
 ![캡처](https://user-images.githubusercontent.com/86655679/191920441-20d51dd1-0ff8-40ca-9206-5c291fbeb10c.PNG)
 
 - 서비스 UI
+![캡처](https://user-images.githubusercontent.com/86655679/191921191-bfe7352d-94ba-4920-8a47-25f44a411cae.PNG)
+
+- Software Architecture
+![캡처](https://user-images.githubusercontent.com/86655679/191921775-ae1f13b0-b74b-472e-8dbd-d5c51b3f4fe2.PNG)
 - 모델
 
     keras를 이용해 CNN 이미지 다중 분류 신경망을 구축했습니다.
