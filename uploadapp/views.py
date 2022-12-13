@@ -146,25 +146,28 @@ def trash_pred(img):
     return label_filter[np.argmax(yhat)]
 
 
-def separ_price(result):
-    label_filter = ['침대', '밥상', '서랍장', '수납장', '의자', '선풍기', '냉장고', '장농', '책상', '소파']
-    if result == label_filter[0]:
-        return 11000
-    if result == label_filter[1]:
-        return 4000
-    if result == label_filter[2]:
-        return 7000
-    if result == label_filter[3]:
-        return 8000
-    if result == label_filter[4]:
-        return 3000
-    if result == label_filter[5]:
-        return 3000
-    if result == label_filter[6]:
-        return 10000
-    if result == label_filter[7]:
-        return 10000
-    if result == label_filter[8]:
-        return 7000
-    if result == label_filter[9]:
-        return 13000
+# def separ_price(result):
+#     label_filter = ['침대', '밥상', '서랍장', '수납장', '의자', '선풍기', '냉장고', '장농', '책상', '소파']
+#     if result == label_filter[0]:
+#         return 11000
+#     if result == label_filter[1]:
+#         return 4000
+#     if result == label_filter[2]:
+#         return 7000
+#     if result == label_filter[3]:
+#         return 8000
+#     if result == label_filter[4]:
+#         return 3000
+#     if result == label_filter[5]:
+#         return 3000
+#     if result == label_filter[6]:
+#         return 10000
+#     if result == label_filter[7]:
+#         return 10000
+#     if result == label_filter[8]:
+#         return 7000
+#     if result == label_filter[9]:
+#         return 13000
+def seper_price(result):
+    dic = {'침대'  : 11000, '밥상' : 4000, '서랍장' : 7000, '수납장' : 8000, '의자' : 3000, '선풍기' : 30000, '냉장고' : 10000, '장농' : 10000, '책상' : 7000, '소파' : 13000}
+    return dic[result]
