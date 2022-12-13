@@ -168,6 +168,6 @@ def trash_pred(img):
 #         return 7000
 #     if result == label_filter[9]:
 #         return 13000
-def seper_price(result):
+def separ_price(result):
     dic = {'침대'  : 11000, '밥상' : 4000, '서랍장' : 7000, '수납장' : 8000, '의자' : 3000, '선풍기' : 30000, '냉장고' : 10000, '장농' : 10000, '책상' : 7000, '소파' : 13000}
     return dic[result]
